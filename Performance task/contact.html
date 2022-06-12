@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="./css/contact.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+
+<body>
+    <header class="container">
+        <div>
+            <img class="upper-head" src="./img/cia-first-2022-logo.png" />
+        </div>
+        <div class="row">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-10">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="Home.html">Home <span class="sr-only"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="calendar.html">calendar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="image.html">Image gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-sm-1">
+
+            </div>
+        </div>
+
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>
+                    <span> Subscribe to our Mailing list </span>
+                </h1>
+                <form action="" method="POST">
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder=" ex: Johndoe@domain.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Full name</label>
+                        <input type="text" class="form-control" id="name" placeholder="ex: john doe">
+                    </div>
+                    <button class="btn" id="submitButton" onclick="submitted();">submit</button>
+
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <h2>Mail To us at : <a href="mail.google.com"> info@ciaschool.edu.kh</a></h2>
+                <p class="para">we try our best to reply to email as fast as possible</p>
+                <h2>Our call us at +855 095 200 011</h2>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="d-flex justify-content-center flex-wrap-reverse">
+            CIA FIRST International School - Phnom Penh, Kingdom of Cambodia © MIT copyright
+        </p>
+    </footer>
+
+</body>
+<script>
+    function submitted() {
+        alert("Your email has been submitted")
+    }
+</script>
+
+</html>

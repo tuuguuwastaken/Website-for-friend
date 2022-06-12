@@ -7,7 +7,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Images</title>
+    <style>
+        .container {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .img-gall {
+            height: 300px;
+            width: 450px;
+            margin-bottom: 0px;
+            padding: 3px;
+        }
+        
+        .img-gall:hover {
+            transition: 0.2s;
+            transform: scale(1.1);
+        }
+        
+        .row3 {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .row3 img {
+            width: 50%;
+            height: 50%;
+            display: inline-block;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,10 +58,13 @@
                                 <a class="nav-link" href="Home.html">Home <span class="sr-only"></span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">calendar</a>
+                                <a class="nav-link" href="calendar.html">calendar</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="image.html">Image gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="word.html">word from our CEO</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">contact us</a>
@@ -45,7 +80,22 @@
 
     </header>
     <div class="container">
-
+        <div class="row">
+            <div class="div-lines"></div>
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-10 d-flex justify-content-center">
+                <img class="img-gall" src="./img/gallery/1.png" alt="">
+                <img class="img-gall" src="./img/gallery/2.png" alt="">
+                <img class="img-gall" src="./img/gallery/3.png" alt="">
+                <img class="img-gall" src="./img/gallery/8.png" alt="">
+                <img class="img-gall" src="./img/gallery/4.png" alt="">
+                <img class="img-gall" src="./img/gallery/5.png" alt="">
+                <img class="img-gall" src="./img/gallery/6.png" alt="">
+                <img class="img-gall" src="./img/gallery/7.png" alt="">
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
     </div>
 
     <footer class="footer">
